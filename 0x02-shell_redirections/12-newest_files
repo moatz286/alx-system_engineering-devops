@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -Atls | head -11
+ls -Atl | head -10
