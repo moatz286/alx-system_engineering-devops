@@ -1,2 +1,2 @@
 #!/bin/bash
-ls ./ -Atls | tail
+find ./ -type f -printf "%t - %p\n" | sort -nr | tail
