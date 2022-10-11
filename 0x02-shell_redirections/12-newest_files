@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -Atl | head -10
+find /sample_directory -type f -printf "%t - %p\n" | sort -n | tail 
